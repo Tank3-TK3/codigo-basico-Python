@@ -1,0 +1,31 @@
+alumno = input("Ingresa tus datos con el siguiente formato:\n<Nombre del alumno_calificacion1_calificacion2_calificacion3>\n")
+#print ("Recibi: ", alumno)
+alumno = alumno.split("_")
+#print ("Recibi: ", alumno)
+print ("Nombre del alumno: ", alumno[0])
+print ("Calificacion1: ", alumno[1])
+print ("Calificacion2: ", alumno[2])
+print ("Calificacion3: ", alumno[3])
+print ("Promedio:", ((float(alumno[1])+float(alumno[2])+float(alumno[3]))/3))
+
+#nombre = input("Dime tu nombre: ")
+#cal1 = int(input("Dime tu calificacion 1: "))
+#cal2 = int(input("Dime tu calificacion 2: "))
+#cal3 = int(input("Dime tu calificacion 3: "))
+#alumno = [input("Dime tu nombre: "), int(input("Dime tu calificacion 1: ")), int(input("Dime tu calificacion 2: ")), int(input("Dime tu calificacion 3: "))]
+#print ("Nombre del alumno: ", alumno[0])
+#print ("Tu calificacion 1: ", alumno[1])
+#print ("Tu calificacion 2: ", alumno[2])
+#print ("Tu calificacion 3: ", alumno[3])
+#print ("Promedio:", ((alumno[1]+alumno[2]+alumno[3])/3))
+
+#alumnodiv = "Nombre del alumno_calificacion1_calificacion2_calificacion3"
+#print (alumnodiv)
+#alumno = alumnodiv.split("_")
+#alumno = [input("Dime tu nombre: "), int(input("Dime tu calificacion 1: ")), int(input("Dime tu calificacion 2: ")), int(input("Dime tu calificacion 3: "))]
+#print ("Nombre del alumno: ", alumno[0])
+#print ("Tu calificacion 1: ", alumno[1])
+#print ("Tu calificacion 2: ", alumno[2])
+#print ("Tu calificacion 3: ", alumno[3])
+#print ("Promedio:", ((alumno[1]+alumno[2]+alumno[3])/3))
+#print (alumno)

@@ -1,0 +1,26 @@
+print ("--------------------------------------------------")
+cad1 = "separar"
+print (cad1)
+nuevo_string1 = ",".join(cad1)
+print (nuevo_string1)
+print ("--------------------------------------------------")
+cad2 = "mi archivo de texto.txt"
+print (cad2)
+nuevo_string2 = cad2.split()
+nuevo_string2 = "_".join(nuevo_string2)
+print (nuevo_string2)
+print ("--------------------------------------------------")
+cad3 = "su clave es: 1540"
+print (cad3)
+nuevo_string3 = cad3.replace(cad3[13:], "XXXX")
+print (nuevo_string3)
+print ("--------------------------------------------------")
+cad4 = "2552552550"
+print (cad4)
+nuevo_string4 = cad4.replace("55", "55.")
+print (nuevo_string4)
+nuevo_string4 = nuevo_string4.split(".")
+print (nuevo_string4)
+nuevo_string4 = ".".join(nuevo_string4)
+print (nuevo_string4)
+print ("--------------------------------------------------")

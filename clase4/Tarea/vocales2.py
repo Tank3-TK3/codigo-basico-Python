@@ -1,0 +1,16 @@
+def contar_vocales():
+	frase = input("Dame una frase: ")
+	frase1 = frase.lower()
+	a = frase1.count("a")
+	e = frase1.count("e")
+	i = frase1.count("i")
+	o = frase1.count("o")
+	u = frase1.count("u")
+	totalvoc = a + e + i + o + u
+	print ("Total de vocales: ", totalvoc)
+	print ("Hay un total de a:", a)
+	print ("Hay un total de e:", e)
+	print ("Hay un total de i:", i)
+	print ("Hay un total de o:", o)
+	print ("Hay un total de u:", u)
+contar_vocales()

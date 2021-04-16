@@ -1,0 +1,11 @@
+import math
+print ("Para calcular la longitud de la sombra de un edificio respecto a su angulo, partimos de: ")
+print ("1.- tan a° = c.opuesto / c.adyacente")
+print ("2.- tan a° * c.adyacente = c.opuesto")
+print ("3.- c.adyacente = c.opuesto / tan a°")
+print (">Calcular y mostrar en pantalla la longitud de la sombra de")
+print (" un edificio de 20 m de altura cuando el ángulo que")
+print (" forman los rayos del sol con el suelo es de 22°.")
+longitud = 20 / math.tan(22)
+print ("	<Entoces: longitud = 20 m / tan(22)")
+print ("	<Igual: ", longitud, "m")

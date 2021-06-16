@@ -1,4 +1,3 @@
-"""
 print("--------------------------------------------------")
 class Usuario():
 	def saludar(self, nombre):
@@ -55,7 +54,7 @@ print (circulo_a.pi)
 print (circulo_b.pi)
 
 print (Circulo.pi)
-"""
+
 print("--------------------------------------------------")
 class Triangulo:
 	numero = 2
